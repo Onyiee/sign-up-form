@@ -1,0 +1,146 @@
+*{
+    font-family: sans-serif;
+}
+.container {
+    background: rgb(238, 199, 150);
+    background: linear-gradient(
+        90deg,
+        rgba(238,199,150,1) 0%,
+        rgba(215,151,223,1) 100%
+    );
+
+}
+
+.main{
+    display: flex;
+    padding: 60px 30px 60px 30px;
+    border-radius: 5px;
+}
+
+.main-left {
+    background-color: #f3d083;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 15px 15px;
+
+}
+
+.main-right {
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 100%;
+ 
+}
+
+.main-right-one {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+    /* margin: 10px 10px 10px 10px; */
+   
+}
+span{
+    color: skyblue;
+}
+
+.google-btn {
+    background-color: royalblue;
+    color: white;
+    padding : 10px 25px 10px 25px;
+    margin-right: 20px;
+    border: none;
+}
+
+.twitter{
+    padding: 7px 7px;
+    margin: 3px;
+}
+
+.facebook {
+    padding: 3px 5px;
+} 
+
+.main-right-two {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+.more-logos{
+    display: flex;
+}
+
+.break{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.break::before,
+.break::after{
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #9999;
+}
+.break:not(:empty)::before{
+    margin-right: 0.25em;
+}
+
+.names{
+    display: flex;
+}
+
+.fullname,.username, .email, .password {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.fullname input, .username input {
+    background-color: #f5f6f7;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    margin-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+    /* padding-left: 2rem; */
+}
+.email input, .password input {
+    background-color: #f5f6f7;
+    border: none;
+    outline: none;
+    margin-top: 3px;
+    margin-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+.terms {
+margin-top: 20px;
+display: flex;
+color: #9999;
+}
+.terms input {
+    background-color: #f5f6f7;
+    margin-right: 10px;
+}
+
+.termslink{
+    text-decoration: none !important;
+}
+
+.account {
+    background-color: #ea4c89;
+    color: #f5f6f7;
+    padding: 7px 20px 7px 20px;
+    border: none;
+}
+
